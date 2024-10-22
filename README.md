@@ -9,8 +9,9 @@ About: PilotSearch is a very simple but very usefull tool that can be used by re
 
 ### 1. Installation
 Go to your terminal and type: 
-1. pip3 install colorama 
-2. git clone {repo_name}
+1. pip3 install colorama
+2. pip3 install -q -U google-generativeai
+3. git clone {repo_name}
 And Done Your are all set
 
 ### 2. Setting Up API and Gemini

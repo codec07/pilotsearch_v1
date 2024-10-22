@@ -2,6 +2,7 @@ from colorama import Fore
 import subprocess
 import api
 import google.generativeai as genai
+import webbrowser as wb
 
 # Functions
 
@@ -38,7 +39,7 @@ Usable Commands:
 => -t : Search On Gemini
 
 => -e : Exit
-=> -git : Open GitHub Repository
+=> -git : Open Github Repository
 ''')
     
 # Code
@@ -58,3 +59,12 @@ while True:
     elif '-t ' in inp:
         query = inp.replace('-t ', '')
         SearchGem(query)
+
+    elif '-e' in inp:
+        break
+
+    elif '-git' in inp:
+        wb.open("https://github.com/codec07/pilotsearch_v1")
+    
+    else:
+        runcmd(inp)

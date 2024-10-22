@@ -1,6 +1,6 @@
 # PilotSearch v1.0 - by Codec07
 
-## About: PilotSearch is a very simple but very usefull tool that can be used by regular or cybersecurity personals allowing you to use Gemini AI inside your terminal that can be used as a normal terminal as well !!
+About: PilotSearch is a very simple but very usefull tool that can be used by regular or cybersecurity personals allowing you to use Gemini AI inside your terminal that can be used as a normal terminal as well !!
 
 ## Note: This Project Uses Python3 and pip3, kindly install the same before use
 
